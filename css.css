@@ -1,0 +1,75 @@
+body {
+	background-color:rgb(255, 255, 255);
+	font-family:serif gill sans;
+}
+#body {
+	position:absolute;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ 	margin-top:50px;
+	 margin-bottom:auto;
+	 text-decoration: none;
+	left:0;
+	right:0;
+	top:0;
+	bottom :0;	
+	color:black;
+	font-size:23px;
+}
+#head{
+	background-color:rgb(2, 54, 83);
+	padding:7px;
+	color:#FFF;
+	text-align:center;
+}	
+.tombol{
+    background-color:rgb(51, 50, 50);
+    color:#ffffff; 
+    border:1px solid rgb(51, 50, 50); 
+    width:100px; 
+    height:30px;
+    text-decoration: none;
+    font-family:serif gill sans;
+}
+.form{
+    height:40px;
+    width:80%;
+    font-size:19px;
+    font-family:serif gill sans; 
+    margin-bottom: 15px;
+}
+.zebra_table {
+	background-color:#fff;
+	font-size:13px;
+	font-family:century gothic;
+	overflow: hidden;
+	border: 1px solid #333;
+	border-collapse: collapse;
+	margin-bottom:10px;
+	}
+.zebra_table tbody tr:hover td{
+	background-color:#f1f1f1;
+	
+}
+.zebra_table th{
+	background-color:#333;
+	color:white;
+	font-size:15px;
+}
+.zebra_table th,.zebra_table td{
+	vertical-align: top;
+	padding:3px 3px;
+	margin:0;
+	border:1px solid #333;
+	font-size:15px;
+	
+}
+.zebra_table  a {
+	text-decoration:none;
+	text-shadow:#333;
+
+}
+.zebra_table  a:hover {
+	color:white;
+	
+}
